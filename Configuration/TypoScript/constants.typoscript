@@ -9,8 +9,8 @@
 ############
 page {
     logo {
-        file = EXT:gercotemplate/Resources/Public/Images/logo.svg
-        fileInverted = EXT:gercotemplate/Resources/Public/Images/logo-inverted.svg
+        file = EXT:gercotemplate/Resources/Public/Images/logo.png
+        #fileInverted = EXT:gercotemplate/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
         alt = GercoTemplate
