@@ -1,0 +1,16 @@
+{
+    "name": "grafickepracecom/gercotemplate",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "http://www.grafickeprace.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grafickepracecom\\Gercotemplate\\": "Classes/"
+        }
+    }
+}

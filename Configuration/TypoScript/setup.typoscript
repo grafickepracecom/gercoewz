@@ -1,0 +1,36 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSS {
+        font.raleway = https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap&subset=latin-ext
+        font.raleway.external = 1
+
+    		font.monserrat = https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,800&display=swap&subset=latin-ext
+        font.monserrat.external = 1
+
+        theme = EXT:gercotemplate/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        gercotemplate_scripts = EXT:gercotemplate/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
