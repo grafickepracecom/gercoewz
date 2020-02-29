@@ -26,5 +26,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'grafickeprace.com',
     'author_email' => 'webmaster@grafickeprace.com',
     'author_company' => 'grafickeprace.com',
-    'version' => '1.0.2',
+    'version' => '1.0.3',
 ];

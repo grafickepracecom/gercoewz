@@ -24,6 +24,10 @@ page {
         partialRootPath = EXT:gercotemplate/Resources/Private/Partials/Page/
         templateRootPath = EXT:gercotemplate/Resources/Private/Templates/Page/
     }
+    theme{
+        copyright.enable = 0
+        googleFont.enable = 0
+    }
 }
 
 
@@ -57,4 +61,8 @@ plugin.bootstrap_package_contentelements {
 plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
+    font-family-base = 'Raleway', sans-serif
+    font-weight-normal = 400
+    headings-font-family = 'Montserrat', cursive
+    headings-font-weight = 700
 }

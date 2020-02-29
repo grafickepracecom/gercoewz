@@ -7,7 +7,7 @@
   },
   "homepage": "http://www.grafickeprace.com",
   "author": "grafickeprace.com",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "grunt": "^1.0.3",

@@ -9,27 +9,15 @@
 ##############
 page {
     includeCSSLibs {
-        fontraleway = https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap&subset=latin-ext
-        fontraleway {
+        fonts = https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i|Montserrat:300,400,400i,700,700i,800&display=swap&subset=latin-ext
+        fonts {
             external = 1
             disableCompression = 1
             excludeFromConcatenation = 1
             fontLoader {
                 families {
-                    Raleway:400,400i,700,700i
-                }
-                enabled = 1
-            }
-        }
-
-    		fontmonserrat = https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,800&display=swap&subset=latin-ext
-        fontmonserrat {
-            external = 1
-            disableCompression = 1
-            excludeFromConcatenation = 1
-            fontLoader {
-                families {
-                    Montserrat:300,400,400i,700,700i,800
+                    0 = Raleway:400,400i,700,700i
+                    1 = Montserrat:300,400,400i,700,700i,800
                 }
                 enabled = 1
             }
